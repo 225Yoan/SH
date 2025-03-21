@@ -271,7 +271,7 @@ purple ">>>>>>>> 本机ip: $ipAddr"
 
 
 # 安装nginx
-sudo installNginx $domain $ipAddr || exit 100
+installNginx $domain $ipAddr || exit 100
 
 
 
